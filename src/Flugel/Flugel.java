@@ -1,23 +1,15 @@
 package Flugel;
 
-public class Flugel {
+public class Flugel implements FlyBehaviour {
+
     public void Flugel()
     {    }
 
-    public void fly()
-    {
-        System.out.println("Flugel Fly");
-    }
+    public void fly() {};
 
-    public void liftOff()
-    {
-        System.out.println("Flugel liftOff");
-    }
+    public void liftOff() {}
 
-    public void land()
-    {
-        System.out.println("Flugel land");
-    }
+    public void land() {}
 
     public void eatFood()
     {
